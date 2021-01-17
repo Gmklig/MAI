@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="90dp"
+        app:cardCornerRadius="@dimen/radiusNormal"
+        android:layout_marginLeft="34dp">
+        <ImageView
+            android:id="+id/imageView"
+            android:src="@drawable/ic_student"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginLeft="36dp" />
+        </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="230dp"
+        android:layout_height="80dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/colorBackground"
+        app:strokeColor="@color/colorBorder"
+        app:strokeWidth="1dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="90dp"
+        app:cardCornerRadius="@dimen/radiusNormal"
+        android:layout_marginLeft="129dp">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="176dp"
+            android:layour_height="19dp"
+            android:layout_marginStart="113dp"
+            android:layout_marginTop="21dp"
+            android:text="@string/volunteers_text"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginLeft="113dp" />
+        <TextView
+            android:id="@+id/tvNumber"
+            android:layout_width="125dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="113dp"
+            android:layout_marginTop="43dp"
+            android:text="@string/phone_number_text"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="113dp" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="325dp"
+        android:layout_height="81dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/colorBackground"
+        app:strokeColor="@color/colorBorder"
+        app:strokeWidth="1dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="181dp"
+        app:cardCornerRadius="@dimen/radiusNormal"
+        android:layout_marginLeft="34dp">
+        <TextView
+            android:layout_width="212dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="104dp"
+            android:text="@string/address_text"
+            android:textSize="14sp"
+            android:textColor="@color/colorTextGrey"
+            android:padding="8dp"
+            android:layout_marginLeft="17dp" />
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="288dp"
+            android:layour_height="19dp"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="17dp"
+            android:text="@string/full_address_text"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginLeft="122dp" />
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>
+

@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">MAI</string>
+    <string name="app_v">2.0</string>
+
+    <!-- Navigation -->
+    <string name="info_navigation">Инфо</string>
+    <string name="exams_navigation">Экзамены</string>
+    <string name="timetable_navigation">Расписание</string>
+    <string name="settings_navigation">Настройки</string>
+
+    <!-- Start Fragment and Flow -->
+    <string name="start_timetable">Расписание</string>
+    <string name="start_description">Простматривайте свое расписание, узнавайте новости и находите интересующие вас события полностью офлайн. Найдите интересные вам увлечения.</string>
+    <string name="start_button">Выбрать учебную группу</string>
+
+    <string name="select_year_title">Выберите свой курс</string>
+    <string name="select_year_hint">Ваш курс</string>
+    <string name="select_year_next">Продолжить</string>
+
+    <string name="select_inst_title">Выберите институт</string>
+    <string name="select_inst_hint">Ваш институт</string>
+
+    <string name="select_group_title">Выберите свою группу</string>
+    <string name="select_group_hint">Ваша группа</string>
+
+    <!-- Info Fragment -->
+    <string name="info_title">МАИ</string>
+    <string name="info_campus_title">Кампус</string>
+    <string name="info_life_title">Жизнь</string>
+    <string name="info_button_map">Схема кампуса</string>
+    <string name="info_button_canteen">Столовые и буфеты</string>
+    <string name="info_button_library">Библиотеки</string>
+    <string name="info_button_sport">Спортивные секции</string>
+    <string name="info_button_students">Студенческие организации</string>
+    <string name="info_button_creative">Творческие коллективы</string>
+
+    <!-- Canteens Fragment -->
+    <string name="canteens_title">Столовые и буфеты</string>
+
+    <!-- Student Fragment -->
+    <string name="student_title">Студенческие объединения</string>
+    <string name="volunteers_text">Волонтерский центр</string>
+    <string name="phone_number_text">+7 916 372-71-35</string>
+    <string name="address_text">Адрес:</string>
+    <string name="full_address_text">Волоколамское ш., д. 4, корп. 20 (Гук зона А), комн.219</string>
+
+    <!-- Exam Fragment -->
+    <string name="exams_title">Экзамены</string>
+    <string name="exams_none_timetable">Расписание ваших экзаменов отсутствует</string>
+
+    <!-- Timetable Fragment -->
+    <string name="timetable_title_current">Текущая неделя</string>
+    <string name="timetable_title_other">Неделя №</string>
+    <string name="timetable_now">Сегодня</string>
+    <string-array name="timetable_days">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    <string name="timetable_next_week_title">На этой неделе у вас больше нет пар.</string>
+    <string name="timetable_next_week_button">Перейти к следующей</string>
+
+    <string name="timetable_dialog_previous_week">Предыдущая неделя</string>
+    <string name="timetable_dialog_this_week_button">Текущая неделя</string>
+    <string name="timetable_dialog_previous_week_button">Следующая неделя</string>
+    <string name="timetable_dialog_other_week_button">Другая неделя</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_dark_theme">Темная тема</string>
+    <string name="settings_info_card">ваши данные</string>
+
+    <string name="settings_select_group">Выбрать другую группу</string>
+    <string name="settings_reload_timetable">Перезагрзить расписание</string>
+    <string name="settings_reload_other">Перезагрузить данные о ВУЗе</string>
+    <string name="settings_events_restore">Вернуть скрытые события</string>
+    <string name="settings_support">Поддержка</string>
+    <string name="settings_news">Новости приложения</string>
+    <string name="settings_mai_link">Перейти на сайт МАИ</string>
+
+    <string name="settings_diagram_text">Устройство</string>
+    <string name="settings_diagram_kb">KB</string>
+    <string name="settings_app_id">ID устройства:</string>
+    <string name="settings_description_title">Информация о приложении:</string>
+    <string name="settings_description">Неофициальное приложение МАИ, написанное студентом для студентов, чтоб облегчить доступ к расписанию и другой информации. Вся информация загружается один раз и потом доступна без доступа в интернет.</string>
+    <string name="settings_version_title">Версия и сборка:</string>
+    <string name="settings_author_title">Автор:</string>
+    <string name="settings_author">Соляной Леонид / Институт №1</string>
+
+</resources>
